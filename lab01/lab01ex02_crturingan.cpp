@@ -9,7 +9,7 @@ void printMatrix(int arr[][SIZE]){
         for(int j = 0; j < SIZE; j++){
             cout << arr[i][j] << " ";
         }
-        cout << "\n";
+        cout << endl;
     }
 }
 
