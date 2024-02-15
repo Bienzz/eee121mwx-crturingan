@@ -30,7 +30,7 @@ void dotProductMatrix(int m1[][SIZE], int m2[][SIZE], int result2[][SIZE]){
         for(int j = 0; j < SIZE; j++){
             result2[i][j] = 0;
             for(int k = 0; k < SIZE; k++){
-                result2[i][j] += m1[i][j] * m2[j][i];
+                result2[i][j] += m1[i][k] * m2[k][j];
             }
         }
     }
